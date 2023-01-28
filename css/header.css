@@ -1,0 +1,26 @@
+.header {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    height: 7.188rem;
+    padding: 0 9.5rem 0 9.5rem;
+}
+
+.header__container {
+    display: flex;
+}
+
+.header__btn {
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    height: 1.188rem;
+    line-height: 1.188rem;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    width: 7.5rem;
+}

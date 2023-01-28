@@ -4,4 +4,9 @@
     --dark-grey: #A2A2A2;
     --light-grey: #F5F5F5;
     --white: #FFFFFF;
-  }
+
+    --font-family-raleway: 'Raleway', sans-serif;
+
+    font-family: var(--font-family-raleway);
+    width: 100%;
+}
