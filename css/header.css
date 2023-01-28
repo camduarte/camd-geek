@@ -1,18 +1,18 @@
 .header {
+    align-items: center ;
     background-color: var(--white);
     display: flex;
-    justify-content: space-between;
-    align-items: center ;
     height: 7.188rem;
+    justify-content: space-between;
     padding: 0 9.5rem 0 9.5rem;
 }
 
 .header__container {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width:  37.563rem;
     height: 3.125rem;
+    width:  37.563rem;
 }
 
 .header__logo {
@@ -28,6 +28,28 @@
 
 .header__camd {
     color: var(--blue);
+}
+
+.header__search {
+    align-items: center;
+    background-color: var(--light-grey);
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: var(--dark-grey);
+    display: flex;
+    font-size: 0.875;
+    font-style: normal;
+    font-weight: 400;
+    height: 2.5rem;
+    justify-content: space-between;
+    line-height: 1rem;
+    padding: 0.5rem 1rem;
+    width: 24.563rem;
+}
+
+.header__search-field {
+    background-color: transparent;
+    border: none;
 }
 
 .header__btn {
