@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CamdGeek | Nuevo producto</title>
+</head>
+<body>
+    <header class="header">
+        <div>
+            <h1><img class="header__logo" src="" alt="Logo CamdGeek"></h1>
+            <div class="header__search">
+                <input class="header__search-field" type="search" name="" id="" placeholder="¿Qué deseas buscar?">
+                <img class="header__search-icon" src="" alt="Icono de búsqueda">
+            </div>
+        </div>
+        <a href="#" class="header__btn-admin">Menú Administrador</a>
+    </header>
+    <main>
+        <form class="product" id="product" action="#" method="post">
+            <fieldset form="product">
+                <legend>
+                    <p classs="product__title">Agregar nuevo producto</p>
+                </legend>
+                <input class="product__img" type="text" name="img" form="product" placeholder="URL de imagen" required>
+                <input class="product__category" type="text" name="category" form="product" placeholder="Categoría" required>
+                <input class="product__name" type="text" name="name" form="product" placeholder="Nombre del producto" required>
+                <input class="product__price" type="text" name="price" form="product" placeholder="Precio del producto" required>
+                <textarea class="product__description" name="description" minlength="12" maxlength="140" form="product" placeholder="Descripción del producto" required></textarea>
+                <button class="product__btn" type="submit">Agregar producto</button>
+            </fieldset>
+        </form>
+    </main>
+    <section class="info">
+        <h1><img class="info__" src="" alt="Logo CamdGeek"></h1>
+        <ul class="info__list">
+            <li class="info__item">Quienes somos</li>
+            <li class="info__item">Política de privacidad</li>
+            <li class="info__item">Programa de fidelidad</li>
+            <li class="info__item">Nuestras tiendas</li>
+            <li class="info__item">Quiero ser franquiciado</li>
+            <li class="info__item">Anuncie aquí</li>
+        </ul>
+        <form class="info__contact" id="contact" action="#" method="post">
+            <fieldset form="contact">
+                <legend>
+                    <p info__contact-title>Hable con nosotros</p>
+                </legend>
+                <input class="info__contact-name" type="text" name="name" form="contact" placeholder="Nombre" required>
+                <textarea class="info__contact-message" name="message" minlength="12" maxlength="140" form="contact" placeholder="Escribe tu mensaje" required></textarea>
+                <button class="info__contact-btn" type="submit">Enviar mensaje</button>
+            </fieldset>
+        </form>
+    </section>
+    <footer class="footer">
+        <p class="footer__text">Desarrollado por Christian Ariel Modesto Duarte 2023</p>
+    </footer>
+</body>
+</html>
