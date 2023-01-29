@@ -6,6 +6,10 @@
     padding: 4rem 9.5rem 4rem 9.5rem;
 }
 
+.info__item {
+    margin-bottom: 1.5rem;
+}
+
 .author {
     align-items: center;
     background-color: var(--white);

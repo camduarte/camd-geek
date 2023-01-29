@@ -26,3 +26,8 @@
 .logo__camd {
     color: var(--blue);
 }
+
+.no-decor {
+    color: var(--black);
+    text-decoration: none;
+}
