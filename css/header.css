@@ -50,19 +50,11 @@
 .header__search-field {
     background-color: transparent;
     border: none;
+    outline: none;
+    width: 95%;
 }
 
-.header__btn {
-    border: 1px solid var(--blue);
-    box-sizing: border-box;
-    color: var(--blue);
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    height: 3.188rem;
-    line-height: 1.188rem;
-    padding: 1rem;
-    text-align: center;
+.header__search-icon {
+    color: var(--dark-grey);
     text-decoration: none;
-    width: 9.5rem;
 }
