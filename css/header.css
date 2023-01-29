@@ -32,7 +32,7 @@
 
 .header__search {
     align-items: center;
-    background-color: var(--light-grey);
+    background-color: var(--ligth-grey);
     border-radius: 20px;
     box-sizing: border-box;
     color: var(--dark-grey);

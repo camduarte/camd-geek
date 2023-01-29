@@ -1,3 +1,11 @@
+.info {
+    background-color: var(--light-blue);
+    display: flex;
+    height: 23rem;
+    justify-content: space-between;
+    padding: 4rem 9.5rem 4rem 9.5rem;
+}
+
 .author {
     align-items: center;
     background-color: var(--white);
@@ -9,8 +17,8 @@
 
 .author__text {
     color: var(--black);
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
-    font-size: 1rem;
     line-height: 1.188rem;
 }
