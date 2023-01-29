@@ -1,5 +1,6 @@
 .info {
     background-color: var(--light-blue);
+    box-sizing: border-box;
     display: flex;
     height: 23rem;
     justify-content: space-between;
@@ -8,6 +9,57 @@
 
 .info__item {
     margin-bottom: 1.5rem;
+}
+
+.info__contact {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, auto);
+    row-gap: 1rem;
+    width: 35rem;
+}
+
+.info__contact-title {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;   
+    line-height: 1.1875rem;  
+    height: 1.1875rem;
+    margin-bottom: 1rem;
+}
+
+.info__contact-name {
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: var(--font-family-raleway);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    height: 3.5rem;
+    line-height: 1.25rem;
+    outline: none;
+    padding: 0.5rem;
+}
+
+.info__contact-message {
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: var(--font-family-raleway);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    height: 5.125rem;
+    line-height: 1.25rem;
+    outline: none;
+    padding: 0.5rem;
+    resize: none;
+}
+
+.info__contact-btn {
+    border: none;
+    font-family: var(--font-family-raleway);
 }
 
 .author {

@@ -15,24 +15,9 @@
     width:  37.563rem;
 }
 
-.logo {
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: bolder;
-    line-height: 1.188rem;
-}
-
-.logo__gamepad {
-    color: var(--blue);
-}
-
-.logo__camd {
-    color: var(--blue);
-}
-
 .header__search {
     align-items: center;
-    background-color: var(--ligth-grey);
+    background-color: var(--light-grey);
     border-radius: 20px;
     box-sizing: border-box;
     color: var(--dark-grey);

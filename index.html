@@ -154,14 +154,12 @@
                 <li class="info__item"><a class="no-decor" href="#">Quiero ser franquiciado</a></li>
                 <li class="info__item"><a class="no-decor" href="#">Anuncie aquí</a></li>
             </ul>
-            <form class="info__contact" id="contact" action="#" method="post">
-                <fieldset form="contact">
-                    <legend>
-                        <p info__contact-title>Hable con nosotros</p>
-                    </legend>
+            <form id="contact" action="#" method="post">
+                <fieldset class="info__contact" form="contact">
+                    <legend class="info__contact-title">Hable con nosotros</legend>
                     <input class="info__contact-name" type="text" name="name" form="contact" placeholder="Nombre" required>
-                    <textarea class="info__contact-message" name="message" minlength="12" maxlength="140" form="contact" placeholder="Escribe tu mensaje" required></textarea>
-                    <button class="info__contact-btn" type="submit">Enviar mensaje</button>
+                    <textarea class="info__contact-message" name="message" minlength="12" maxlength="160" form="contact" placeholder="Escribe tu mensaje" required></textarea>
+                    <button class="info__contact-btn blue-btn" type="submit">Enviar mensaje</button>
                 </fieldset>
             </form>
         </section>
