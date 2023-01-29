@@ -11,3 +11,18 @@
     font-family: var(--font-family-raleway);
     width: 100%;
 }
+
+.logo {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 1.188rem;
+}
+
+.logo__gamepad {
+    color: var(--blue);
+}
+
+.logo__camd {
+    color: var(--blue);
+}

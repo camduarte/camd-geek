@@ -15,18 +15,18 @@
     width:  37.563rem;
 }
 
-.header__logo {
+.logo {
     font-size: 1.5rem;
     font-style: normal;
     font-weight: bolder;
     line-height: 1.188rem;
 }
 
-.header__gamepad {
+.logo__gamepad {
     color: var(--blue);
 }
 
-.header__camd {
+.logo__camd {
     color: var(--blue);
 }
 
