@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/banner.css">
     <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <script src="https://kit.fontawesome.com/070f11682f.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -142,29 +143,31 @@
             </div>
         </section>
     </main>
-    <section class="info">
-        <h1><img class="info__" src="" alt="Logo CamdGeek"></h1>
-        <ul class="info__list">
-            <li class="info__item">Quienes somos</li>
-            <li class="info__item">Política de privacidad</li>
-            <li class="info__item">Programa de fidelidad</li>
-            <li class="info__item">Nuestras tiendas</li>
-            <li class="info__item">Quiero ser franquiciado</li>
-            <li class="info__item">Anuncie aquí</li>
-        </ul>
-        <form class="info__contact" id="contact" action="#" method="post">
-            <fieldset form="contact">
-                <legend>
-                    <p info__contact-title>Hable con nosotros</p>
-                </legend>
-                <input class="info__contact-name" type="text" name="name" form="contact" placeholder="Nombre" required>
-                <textarea class="info__contact-message" name="message" minlength="12" maxlength="140" form="contact" placeholder="Escribe tu mensaje" required></textarea>
-                <button class="info__contact-btn" type="submit">Enviar mensaje</button>
-            </fieldset>
-        </form>
-    </section>
-    <footer class="footer">
-        <p class="footer__text">Desarrollado por Christian Ariel Modesto Duarte 2023</p>
+    <footer>
+        <section class="info">
+            <h1><img class="info__" src="" alt="Logo CamdGeek"></h1>
+            <ul class="info__list">
+                <li class="info__item">Quienes somos</li>
+                <li class="info__item">Política de privacidad</li>
+                <li class="info__item">Programa de fidelidad</li>
+                <li class="info__item">Nuestras tiendas</li>
+                <li class="info__item">Quiero ser franquiciado</li>
+                <li class="info__item">Anuncie aquí</li>
+            </ul>
+            <form class="info__contact" id="contact" action="#" method="post">
+                <fieldset form="contact">
+                    <legend>
+                        <p info__contact-title>Hable con nosotros</p>
+                    </legend>
+                    <input class="info__contact-name" type="text" name="name" form="contact" placeholder="Nombre" required>
+                    <textarea class="info__contact-message" name="message" minlength="12" maxlength="140" form="contact" placeholder="Escribe tu mensaje" required></textarea>
+                    <button class="info__contact-btn" type="submit">Enviar mensaje</button>
+                </fieldset>
+            </form>
+        </section>
+        <section class="author">
+            <p class="author__text">Desarrollado por Christian Ariel Modesto Duarte<br>2023</p>
+        </section>
     </footer>
 </body>
 </html>
