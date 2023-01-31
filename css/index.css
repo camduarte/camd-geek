@@ -1,12 +1,17 @@
 .products {
+    background-color: var(--light-grey);
     display: grid;
     grid-template-areas: "title    link" 
                          "products products";
-    padding: 0 9.5rem 0 9.5rem;
+    padding: 4rem 9.5rem;
 }
 
-.products__title {
+.category-title {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
     grid-area: title;
+    line-height: 2.375rem;
 }
 
 .products__link {
@@ -19,7 +24,7 @@
 }
 
 .products__container {
-    grid-area: products;
     display: grid;
+    grid-area: products;
     grid-template-columns: auto auto auto auto auto auto;
 }
