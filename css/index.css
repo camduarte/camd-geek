@@ -1,9 +1,13 @@
-.products {
+.main {
     background-color: var(--light-grey);
+    padding-bottom: 4rem;
+}
+
+.products {
     display: grid;
     grid-template-areas: "title    link" 
                          "products products";
-    padding: 4rem 9.5rem;
+    padding: 4rem 9.5rem 0 9.5rem;
     row-gap: 1rem;
 }
 
