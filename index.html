@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/banner.css">
     <link rel="stylesheet" href="./css/button.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/fake-placeholder.css">
     <script src="https://kit.fontawesome.com/070f11682f.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -157,8 +158,14 @@
             <form id="contact" action="#" method="post">
                 <fieldset class="info__contact" form="contact">
                     <legend class="info__contact-title">Hable con nosotros</legend>
-                    <input class="info__contact-name" type="text" name="name" form="contact" placeholder="Nombre" required>
-                    <textarea class="info__contact-message" name="message" minlength="12" maxlength="160" form="contact" placeholder="Escribe tu mensaje" required></textarea>
+                    <div class="field-container">
+                        <input class="info__contact-name field" id="name" type="text" name="name" form="contact" placeholder="Nombre" required>
+                        <label class="fake-placeholder" for="name">Nombre</label>
+                    </div>
+                    <div class="field-container">
+                        <textarea class="info__contact-message field" id="message" name="message" minlength="12" maxlength="160" form="contact" placeholder="Escribe tu mensaje" required></textarea>
+                        <label class="fake-placeholder" for="message">Escribe tu mensaje</label>
+                    </div>
                     <button class="info__contact-btn blue-btn" type="submit">Enviar mensaje</button>
                 </fieldset>
             </form>

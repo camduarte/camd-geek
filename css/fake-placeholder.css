@@ -1,0 +1,23 @@
+.field-container {
+    position: relative;
+}
+
+.field::placeholder {
+    visibility: hidden;
+}
+
+.fake-placeholder {
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    font-size: 1rem;
+    opacity: 0.5;
+    transition: all 0.25s;
+}
+
+.field:not(:placeholder-shown) + .fake-placeholder,
+.field:focus + .fake-placeholder {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+}
