@@ -1,0 +1,25 @@
+.products {
+    display: grid;
+    grid-template-areas: "title    link" 
+                         "products products";
+    padding: 0 9.5rem 0 9.5rem;
+}
+
+.products__title {
+    grid-area: title;
+}
+
+.products__link {
+    grid-area: link;
+    justify-self: end;
+}
+
+.products__link-text {
+    display: inline;
+}
+
+.products__container {
+    grid-area: products;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
