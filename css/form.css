@@ -1,5 +1,8 @@
 .field-text {
-    border: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--dark-grey);
     border-radius: 4px;
     box-sizing: border-box;
     font-family: var(--font-family-raleway);

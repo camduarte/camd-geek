@@ -16,7 +16,7 @@
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: repeat(3, 3.938rem);
-    row-gap: 1rem;
+    row-gap: 1.5rem;
     width: 26.438rem;
 }
 
