@@ -1,3 +1,25 @@
 .header__btn {
     display: none;
 }
+
+.main-container {
+    padding: 5.688rem;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+.login__fields {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 3.938rem);
+    row-gap: 1rem;
+    width: 26.438rem;
+}
+
+.login__title {
+    margin-bottom: 1rem;
+    text-align: center;
+}
