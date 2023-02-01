@@ -1,7 +1,17 @@
+.header__btn {
+    display: none;
+}
+
+.main-container {
+    background-color: var(--light-grey);
+    padding: 4rem 9.5rem;
+}
+
 .products {
     display: grid;
     grid-template-areas: "title    link" 
                          "products products";
+    row-gap: 1.406rem;
 }
 
 .category-title {
@@ -10,6 +20,7 @@
 
 .products__link {
     grid-area: link;
+    justify-self: end;
 }
 
 .products__container {
@@ -17,4 +28,13 @@
     display: grid;
     grid-template-columns: repeat(5, auto);
     grid-template-rows: repeat(3, auto);
+    justify-content: space-between;
+    row-gap: 4rem;
+}
+
+.products__product {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, auto);
+    row-gap: 0.5rem;
 }
