@@ -1,0 +1,20 @@
+.products {
+    display: grid;
+    grid-template-areas: "title    link" 
+                         "products products";
+}
+
+.category-title {
+    grid-area: title;
+}
+
+.products__link {
+    grid-area: link;
+}
+
+.products__container {
+    grid-area: products;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(3, auto);
+}
