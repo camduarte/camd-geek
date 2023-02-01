@@ -15,12 +15,19 @@
 }
 
 .category-title {
+    color: var(--black);
+    font-family: var(--font-family-raleway);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
     grid-area: title;
+    line-height: 2.375rem;
 }
 
 .products__link {
     grid-area: link;
     justify-self: end;
+    width: 10.188rem;
 }
 
 .products__container {
