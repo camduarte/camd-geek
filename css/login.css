@@ -3,6 +3,7 @@
 }
 
 .main-container {
+    background-color: var(--light-grey);
     padding: 5.688rem;
 }
 
@@ -20,6 +21,11 @@
 }
 
 .login__title {
+    color: var(--black);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.313rem;
     margin-bottom: 1rem;
     text-align: center;
 }
