@@ -1,0 +1,17 @@
+.header__btn {
+    display: none;
+}
+
+.main-container {
+    display: grid;
+    grid-template-areas: "product"
+                         "products";
+}
+
+.product {
+    grid-area: product;
+}
+
+.products {
+    grid-area: similar-products;
+}
