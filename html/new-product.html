@@ -34,11 +34,26 @@
         <form class="product" id="product" action="#" method="post">
             <fieldset class="product__fields" form="product">
                 <legend class="product__title">Agregar nuevo producto</legend>
-                <input class="product__img field-text field" type="text" name="img" form="product" placeholder="URL de imagen" required>
-                <input class="product__category field-text field" type="text" name="category" form="product" placeholder="Categoría" required>
-                <input class="product__name field-text field" type="text" name="name" form="product" placeholder="Nombre del producto" required>
-                <input class="product__price field-text field" type="text" name="price" form="product" placeholder="Precio del producto" required>
-                <textarea class="product__description textarea field" name="description" minlength="12" maxlength="140" form="product" placeholder="Descripción del producto" required></textarea>
+                <div class="field-container">
+                    <input class="product__img field-text field" id="img" type="text" name="img" form="product" placeholder="URL de imagen" required>
+                    <label class="fake-placeholder" for="img">URL de imágen</label>
+                </div>
+                <div class="field-container">
+                    <input class="product__category field-text field" id="category" type="text" name="category" form="product" placeholder="Categoría" required>
+                    <label class="fake-placeholder" for="category">Categoría</label>
+                </div>
+                <div class="field-container">
+                    <input class="product__name field-text field" id="product" type="text" name="name" form="product" placeholder="Nombre del producto" required>
+                    <label class="fake-placeholder" for="product">Nombre del producto</label>
+                </div>
+                <div class="field-container">
+                    <input class="product__price field-text field" id="price" type="text" name="price" form="product" placeholder="Precio del producto" required>
+                    <label class="fake-placeholder" for="price">Precio del producto</label>
+                </div>
+                <div class="field-container">
+                    <textarea class="product__description textarea field" id="description" name="description" minlength="12" maxlength="140" form="product" placeholder="Descripción del producto" required></textarea>
+                    <label class="fake-placeholder" for="description">Descripción del producto</label>
+                </div>
                 <button class="product__btn submit-btn" type="submit">Agregar producto</button>
             </fieldset>
         </form>
