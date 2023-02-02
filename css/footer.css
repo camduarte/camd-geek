@@ -31,6 +31,7 @@
 .info__contact-btn {
     border: none;
     font-family: var(--font-family-raleway);
+    width: 9rem;
 }
 
 .author {

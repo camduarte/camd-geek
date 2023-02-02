@@ -43,3 +43,7 @@
     color: var(--dark-grey);
     text-decoration: none;
 }
+
+.header__btn {
+    width: 11.375rem;
+}
