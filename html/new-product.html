@@ -33,13 +33,13 @@
     <main class="main-container">
         <form class="product" id="product" action="#" method="post">
             <fieldset class="product__fields" form="product">
-                <legend classs="product__title">Agregar nuevo producto</legend>
-                <input class="product__img" type="text" name="img" form="product" placeholder="URL de imagen" required>
-                <input class="product__category" type="text" name="category" form="product" placeholder="Categoría" required>
-                <input class="product__name" type="text" name="name" form="product" placeholder="Nombre del producto" required>
-                <input class="product__price" type="text" name="price" form="product" placeholder="Precio del producto" required>
-                <textarea class="product__description" name="description" minlength="12" maxlength="140" form="product" placeholder="Descripción del producto" required></textarea>
-                <button class="product__btn" type="submit">Agregar producto</button>
+                <legend class="product__title">Agregar nuevo producto</legend>
+                <input class="product__img field-text field" type="text" name="img" form="product" placeholder="URL de imagen" required>
+                <input class="product__category field-text field" type="text" name="category" form="product" placeholder="Categoría" required>
+                <input class="product__name field-text field" type="text" name="name" form="product" placeholder="Nombre del producto" required>
+                <input class="product__price field-text field" type="text" name="price" form="product" placeholder="Precio del producto" required>
+                <textarea class="product__description textarea field" name="description" minlength="12" maxlength="140" form="product" placeholder="Descripción del producto" required></textarea>
+                <button class="product__btn submit-btn" type="submit">Agregar producto</button>
             </fieldset>
         </form>
     </main>

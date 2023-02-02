@@ -3,6 +3,7 @@
 }
 
 .main-container {
+    background-color: var(--light-grey);
     padding: 4rem 0 4rem 0;
 }
 
@@ -16,5 +17,11 @@
 }
 
 .product__title {
+    color: var(--black);
+    font-family: var(--font-family-raleway);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.375rem;
     margin-bottom: 1rem;
 }
