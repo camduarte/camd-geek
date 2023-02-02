@@ -28,14 +28,12 @@
                 <a class="header__search-icon" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
             </div>
         </div>
-        <a href="#" class="header__btn transparent-btn menu-admin">Menú Administrador</a>
+        <a href="#" class="transparent-btn menu-admin">Menú Administrador</a>
     </header>
-    <main>
+    <main class="main-container">
         <form class="product" id="product" action="#" method="post">
-            <fieldset form="product">
-                <legend>
-                    <p classs="product__title">Agregar nuevo producto</p>
-                </legend>
+            <fieldset class="product__fields" form="product">
+                <legend classs="product__title">Agregar nuevo producto</legend>
                 <input class="product__img" type="text" name="img" form="product" placeholder="URL de imagen" required>
                 <input class="product__category" type="text" name="category" form="product" placeholder="Categoría" required>
                 <input class="product__name" type="text" name="name" form="product" placeholder="Nombre del producto" required>

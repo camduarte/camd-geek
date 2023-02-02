@@ -1,3 +1,20 @@
 .menu-admin {
     width: 12rem;
 }
+
+.main-container {
+    padding: 4rem 0 4rem 0;
+}
+
+.product__fields {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 3.5rem 3.5rem 3.5rem 3.5rem 5.125rem 3.5rem ;
+    row-gap: 1rem;
+    width: 34.938rem;
+    margin: 0 auto;
+}
+
+.product__title {
+    margin-bottom: 1rem;
+}
