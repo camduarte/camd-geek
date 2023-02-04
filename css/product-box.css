@@ -8,9 +8,8 @@
 
 .products__product {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 176px;
     grid-template-rows: repeat(4, auto);
-    overflow: hidden;
     row-gap: 0.5rem;
 }
 
@@ -21,7 +20,7 @@
     height: 174px;
     overflow: hidden;
     position: relative;
-    width: 176px;
+    width: 100%;
 }
 
 .product__img {
