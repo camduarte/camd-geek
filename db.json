@@ -1,0 +1,217 @@
+{
+    "user":
+    [
+        {
+            "id" : 1,
+            "email" :  "admin@camdgeek.com",
+            "password" : "admin"
+        }
+    ],
+    "starwars":
+    [
+        {
+            "id" : 1,
+            "category" : "Star Wars",
+            "name" : "Star Wars - The Child - Baby Yoda - The Mandalorian Original",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_633242-MLA50325354395_062022-O.webp",
+            "description" : "Mattel, persigue la diversión y la fabricación de juguetes como horizonte a seguir.",
+            "price" : "34.900",
+            "link" : "#"
+        },
+        {
+            "id" : 2,
+            "category" : "Star Wars",
+            "name" : "Cascos Star Wars | Solo Impresión | Cosplay | Hobbies",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_946221-MLA53551122162_012023-O.webp",
+            "description" : "Colección Star Wars \"Cascos talle S y M\". SOLO IMPRESIÓN EN TALLE S Y M SIN POSTPROSESADO.",
+            "price" : "8.900",
+            "link" : "#"
+        },
+        {
+            "id" : 3,
+            "category" : "Star Wars",
+            "name" : "Casco Darth Vader (trabajado) Impresion 3d | Star Wars",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_951253-MLA52322181085_112022-O.webp",
+            "description" : "Casco Darth Vader impreso en 3D. El casco es completamente lijado, masillado y pintado para que no se noten las lineas de impresión y quede completamente finalizado",
+            "price" : "27.000",
+            "link" : "#"
+        },
+        {
+            "id" : 4,
+            "category" : "Star Wars",
+            "name" : "Star Wars Mandalorian Razor Crest Model Kit Bandai Replay",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_785778-MLA53563815137_022023-O.webp",
+            "description" : "Agregue a su colección The Mandalorian con este kit modelo de Razor Crest!.",
+            "price" : "27.200",
+            "link" : "#"
+        },
+        {
+            "id" : 5,
+            "category" : "Star Wars",
+            "name" : "Funko Pop! Star Wars Stormtrooper Galactic Convention #510",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_851687-MLA53447967174_012023-O.webp",
+            "description" : "Figura de 12cms de altura aproximadamente. ORIGINAL.",
+            "price" : "13.999",
+            "link" : "#"
+        },
+        {
+            "id" : 6,
+            "category" : "Star Wars",
+            "name" : "Star Wars Colección Completa Dvd - Saga Completa Latino",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_603491-MLA52937140858_122022-O.webp",
+            "description" : "STAR WARS LA SAGA COMPLETA Contenido",
+            "price" : "10.000",
+            "link" : "#"
+        },
+        {
+            "id" : 7,
+            "category" : "Star Wars",
+            "name" : "Taza Tazón Star Wars Darth Vader",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_689541-MLA50539885099_072022-O.webp",
+            "description" : "Taza Tazón Star Wars Darth Vader de 250ml",
+            "price" : "2.499",
+            "link" : "#"
+        },
+        {
+            "id" : 8,
+            "category" : "Star Wars",
+            "name" : "Lámpara Led 3d Grogu Baby Yoda Star Wars Rgb Control Remoto",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_994354-MLA50232410731_062022-O.webp",
+            "description" : "¡NUEVO! - LÁMPARA 3D LED RGB -<br>Modelo: Grogu / Baby Yoda 1<br>Medidas aproximadas: 20x15cm<br>La Base LED incluye + de 15 colores y tipos de iluminación para que ambientes tu espacio de la forma mas canchera y moderna!<br>Decorá con tus modelos favoritos y disfrutá de tu nueva lámpara!<br>Recomendamos limpiar el acrílico con un paño húmedo en alcohol para perfeccionar la transparencia.<br>La caja incluye:<br>- Acrílico de 4mm grabado<br>- Base RGB Táctil (alimentación con 2 pilas AA -no incluidas- y cable usb)<br>- Cable USB Universal<br>- Control Remoto con pila",
+            "price" : "4.895",
+            "link" : "#"
+        },
+        {
+            "id" : 9,
+            "category" : "Star Wars",
+            "name" : "Lámpara Led 3d Star Wars R2d2",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_777909-MLA45826671965_052021-O.webp",
+            "description" : "LAMPARA LED RGB ILUSION 3D HOLOGRAMA<br>HERMOSO REGALO !!!<br>CONTROL REMOTO PARA CAMBIO DE COLORES. RGB 16 COLORES Y 4 FUNCIONES ADICIONALES DE SECUENCIAS DE CAMBIO.<br>ALIMENTACIÓN FUENTE 220 V - 12 V CON INTERRUPTOR ON/OFF<br>EXCELENTE CALIDAD - SOMOS FABRICANTES.<br>HACEMOS FACTURA A / B<br>ENVIOS A TODO EL PAÍS<br>ENVIOS A CABA Y GBA EN EL DÍA CON ENVIOS FLEX.",
+            "price" : "5.400",
+            "link" : "#"
+        },
+        {
+            "id" : 10,
+            "category" : "Star Wars",
+            "name" : "Mochila | Star Wars - R2d2",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_844305-MLA51471539886_092022-O.webp",
+            "description" : "PRODUCTO MOCHILA<br>MODELO STAR WARS<br>MATERIAL CORDURA<br>DETALLES<br>BOLSILLO PRINCIPAL CON CIERRE<br>BOLSILLO FRONTAL CON CIERRE<br>MEDIDAS LARGO: 40cm<br>PROFUNDIDAD: 12cm<br>ANCHO: 30cm",
+            "price" : "7.999",
+            "link" : "#"
+        }
+    ],
+    "console":
+    [
+        {
+            "id" : 1,
+            "category" : "console",
+            "name" : "Sony PlayStation 5 825GB Standard color blanco y negro",
+            "img" : "https://www.trustedreviews.com/wp-content/uploads/sites/54/2022/11/PS5-Review-8-920x690.jpg",
+            "description" : "Con tu consola PlayStation 5 tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos.<br>PlayStation renovó las expectativas del mundo virtual con esta nueva consola y su gran rendimiento. Cuenta con una interfaz de usuario más rápida y fácil de navegar que en anteriores modelos. Además, podrás jugar durante horas desafiando a millones de contrincantes alrededor del mundo que esperan nuevos retos.<br>Calidad de otro nivel<br>Se considera que esta consola es de las mejores dentro del mercado, dado que presenta una resolución de hasta 4K.<br>Además, el control DualSense para PS5 combina estilo y tecnología para que jugar sea más cómodo e interactivo para todos sus jugadores.<br>Adaptada a tus necesidades<br>Guardá tus apps, fotos, videos y mucho más en el disco duro, que cuenta con una capacidad de 825 GB.<br>Al contar con un procesador de 8 núcleos y uno gráfico, brinda una experiencia dinámica, respuestas ágiles, y transiciones fluidas de imágenes en alta definición.<br>Por otro lado, tiene puerto USB y salida HDMI, que permiten conectar accesorios y cargar la batería de tu control mientras jugás.<br>Vas a poder reproducir música, ver tus películas y series favoritas a través de las aplicaciones descargables.",
+            "price" : "341.999",
+            "link" : "#"
+        },
+        {
+            "id" : 2,
+            "category" : "console",
+            "name" : "Nintendo Switch 32GB Standard color rojo neón, azul neón y negro",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_883371-MLA32731749246_112019-O.webp",
+            "description" : "Con tu consola Switch tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos.<br>Switch se convirtió en una de las consolas más versátiles del mercado gracias a su uso portátil y de sobremesa. Nintendo desarrolló este modelo con el objetivo de tener todas las comodidades de la tecnología de elite en un aparato portátil con el que podrás jugar y disfrutar de diverso contenido online.<br>Nintendo Switch es una consola desmontable, que puede usarse en modo portátil, sobremesa o en la TV; esto te brindará la posibilidad de utilizarla donde quieras y compartir sus controles.<br>Los Joy-con cuentan con botones especiales para realizar print de pantalla. Además, posee una cámara infrarroja que puede leer la distancia respecto a los objetos e incluso detectar formas.<br>Adaptada a tus necesidades<br>Guardá tus apps, fotos, videos y mucho más en el disco duro, que cuenta con una capacidad de 32 GB.<br>Al contar con un procesador de 8 núcleos y uno gráfico, brinda una experiencia dinámica, respuestas ágiles, y transiciones fluidas de imágenes en alta definición.<br>Por otro lado, tiene puerto USB y salida HDMI, que permiten conectar accesorios y cargar la batería de tu control mientras jugás.<br>Vas a poder reproducir música, ver tus películas y series favoritas a través de las aplicaciones descargables.",
+            "price" : "178.499",
+            "link" : "#"
+        },
+        {
+            "id" : 3,
+            "category" : "console",
+            "name" : "Microsoft Xbox One S 1TB Fortnite Battle Royale Special Edition Bundle color violeta gradiente",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_690065-MLA44337718513_122020-O.webp",
+            "description" : "Con tu consola Xbox One tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos.<br>Con más de 40 millones de unidades vendidas alrededor del mundo, Xbox One fue una sensación durante la última década. Con esta consola podrás desafiar tus habilidades con increíbles juegos y disfrutar del mejor contenido online durante horas.<br>Calidad de otro nivel<br>Se considera que esta consola es de las mejores dentro del mercado, dado que presenta una resolución de hasta 4K.<br>Microsoft Xbox One S ofrece impresionantes gráficos, sonido de primer nivel e incluso la posibilidad de guardar todas tus partidas en la nube.<br>Adaptada a tus necesidades<br>Guardá tus apps, fotos, videos y mucho más en el disco duro, que cuenta con una capacidad de 1 TB.<br>Al contar con un procesador de 8 núcleos y uno gráfico, brinda una experiencia dinámica, respuestas ágiles, y transiciones fluidas de imágenes en alta definición.<br>Por otro lado, tiene puerto USB y salida HDMI, que permiten conectar accesorios y cargar la batería de tu control mientras jugás.<br>Vas a poder reproducir música, ver tus películas y series favoritas a través de las aplicaciones descargables.",
+            "price" : "249.899",
+            "link" : "#"
+        },
+        {
+            "id" : 4,
+            "category" : "console",
+            "name" : "Nintendo Super NES Classic Edition 512MB color gris y violeta",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_922126-MLA32731490477_112019-O.webp",
+            "description" : "Con tu consola Super NES Classic Edition tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos.<br>Adaptada a tus necesidades<br>Guardá tus apps, fotos, videos y mucho más en el disco duro, que cuenta con una capacidad de 512 MB.<br>Por otro lado, tiene puerto USB y salida HDMI, que permiten conectar accesorios y cargar la batería de tu control mientras jugás.",
+            "price" : "27.200",
+            "link" : "#"
+        },
+        {
+            "id" : 5,
+            "category" : "console",
+            "name" : "Sega Genesis Model 2 Original",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_851687-MLA53447967174_012023-O.webp",
+            "description" : "Consola Origonal. Muy buen estado estético, funcionando correctamente.<br>Incluye<br>°joystick 3 botones réplica de los años 90.<br>° fuente genérica<br>° cable AV genérico",
+            "price" : "50.000",
+            "link" : "#"
+        },
+        {
+            "id" : 6,
+            "category" : "console",
+            "name" : "NES",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_976439-MLA32731593325_112019-O.webp",
+            "description" : "Nintendo nes 1985, ideal coleccionistas muy bien conservada.",
+            "price" : "200.000",
+            "link" : "#"
+        },
+        {
+            "id" : 7,
+            "category" : "console",
+            "name" : "Nintendo Wii 512MB Standard color negro",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_813569-MLA32731593369_112019-O.webp",
+            "description" : "Con tu consola Wii tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos.<br>El control Wii Remote se destaca por su capacidad de detectar movimientos en un determinado espacio lo que te permite una mayor interacción y dinamismo.<br>Guardá tus apps, fotos, videos y mucho más en el disco duro, que cuenta con una capacidad de 512 MB.<br>Vas a poder reproducir música, ver tus películas y series favoritas a través de las aplicaciones descargables.",
+            "price" : "40.999",
+            "link" : "#"
+        }
+    ],
+    "various":
+    [
+        {
+            "id" : 1,
+            "category" : "various",
+            "name" : "Taza Star Trek Spock Enterprise Discovery Ceramic Beyond M02",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_723568-MLA41821874330_052020-O.webp",
+            "description" : "Calidad Premium<br>- Taza de cerámica importada.<br>- Los productos son los mejores del mercado.<br>- Apta para Microondas.<br>- Altura 9.5 cm, Diámetro 8 cm.<br>- Capacidad 325 ml.",
+            "price" : "1.829",
+            "link" : "#"
+        },
+        {
+            "id" : 2,
+            "category" : "various",
+            "name" : "Remeras Mujer Doctor Who |de Hoy No Pasa| 4",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_855180-MLA51617644367_092022-O.webp",
+            "description" : "ALLES:<br>Las remeras se estampan a pedido y por lo tanto NO TIENEN CAMBIO POR TALLE.<br>Se mide de axila a axila por largo total sobre una superficie plana.<br>Podes ver las medidas en la guía de talles.<br>CALIDAD:<br>- Calidad de confección superior.<br>- Tapacostura de cuello y hombro.<br>- Fabricación propia.<br>- 100% algodón peinado 24/1<br>TODOS LOS DISEÑOS PUEDEN HACERSE EN DIFERENTES COLORES.<br>Los colores disponibles de remera son: Blanca, Negra, Gris melange, Bordó, Azul, Roja, Verde.<br>Y el color del vinilo puede ser: Blanco, Negro, Celeste, Rosa, Rojo, Amarillo, Azul Marino.",
+            "price" : "4.500",
+            "link" : "#"
+        },
+        {
+            "id" : 3,
+            "category" : "various",
+            "name" : "Reloj Batman Madera Calada Negro 60x60 Cm",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_609803-MLA47493089608_092021-O.webp",
+            "description" : "Reloj de pared calado en madera laminada<br>Calidad y terminación inmejorable!<br>INDICAR EL COLOR ELEGIDO (BLANCO O NEGRO) DESPUÉS DE OFERTAR, DESDE EL CHAT DEL DETALLE DE COMPRA.<br>El reloj viene con las agujas negras metalicas.<br>Medida: 30cm de diametro<br>Funciona con solo 1 pila AA (no incluye pila).",
+            "price" : "2.770",
+            "link" : "#"
+        },
+        {
+            "id" : 4,
+            "category" : "various",
+            "name" : "Auto Delorean Volver Al Futuro Iii Con Luz 1:24 Metal Jada",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_845447-MLA52733819263_122022-O.webp",
+            "description" : "Viaja atrás en el tiempo con uno de los vehículos más icónicos de la alineación de Hollywood Rides: la máquina del tiempo como se ve en Volver al Futuro (1990). Con una carrocería fundida a presión, llantas de goma y función de iluminación, ¡este vehículo a escala 1:24 es imprescindible en cualquier colección!<br>• Cuerpo fundido a presión con ruedas de trabajo y neumáticos de caucho<br>• Apertura de puertas<br>• Interior detallado<br>• Con luz<br>• Con licencia auténtica<br>• Rueda libre",
+            "price" : "27.200",
+            "link" : "#"
+        },
+        {
+            "id" : 5,
+            "category" : "various",
+            "name" : "Gorras Trucker Volver Al Futuro Estampadas Cine Retro 80s",
+            "img" : "https://http2.mlstatic.com/D_NQ_NP_808655-MLA43370815013_092020-O.webp",
+            "description" : "Detalles del producto:<br>• Gorras Trucker de calidad Superior (Premium)<br>• 5 paneles. Panel frontal de Foam y 4 paneles de malla por detrás.<br>• Visera Semicurva.<br>• Medida regulable con broche plástico posterior de doble línea de puntos (Cierre Snapback)<br>• Impresión Digital por Sublimación. Imperceptible al tacto. Gama ilimitada de colores (Full Color). No se desgasta ni desluce con los lavados.<br>• Sin marcas del planchado.<br>• Producto importado.",
+            "price" : "2.400",
+            "link" : "#"
+        }
+    ]
+}
