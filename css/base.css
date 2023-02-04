@@ -10,7 +10,7 @@
     --font-family-raleway: 'Raleway', sans-serif;
 
     font-family: var(--font-family-raleway);
-    width: 100%;
+    width: 100vw;
 }
 
 .logo {
