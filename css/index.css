@@ -38,7 +38,7 @@
     line-height: 1.188rem;
 }
 
-.products__container {
+/* .products__container {
     display: grid;
     grid-area: products;
     grid-template-columns: auto auto auto auto auto;
@@ -89,4 +89,4 @@
     font-style: normal;
     font-weight: 700;
     line-height: 1.188rem;
-}
+} */
