@@ -43,13 +43,28 @@
     grid-area: products;
     grid-template-columns: auto auto auto auto auto;
     justify-content: space-between;
+    row-gap: 2rem;
 }
 
 .products__product {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
+    overflow: hidden;
     row-gap: 0.5rem;
+}
+
+.img-container {
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    height: 174px;
+    overflow: hidden;
+    width: 176px;
+}
+
+.product__img {
+    width: 100%;
 }
 
 .product__description {
