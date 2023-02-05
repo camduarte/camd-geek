@@ -8,7 +8,7 @@
 
 .products__product {
     display: grid;
-    grid-template-columns: 176px;
+    grid-template-columns: 11rem;
     grid-template-rows: repeat(4, auto);
     row-gap: 0.5rem;
 }
@@ -17,7 +17,7 @@
     align-items: center;
     background-color: var(--white);
     display: flex;
-    height: 174px;
+    height: 10.875rem;
     overflow: hidden;
     position: relative;
     width: 100%;
