@@ -2,7 +2,7 @@
 <p>Sitio de venta de artículos online.</p>
 
 ## Demo
-<a>https://camduarte.github.io/camd-geek/</a>
+<a href="https://camduarte.github.io/camd-geek/" target="_blank">Visitar Camd Geek</a>
 
 ## Tecnologías
 <ul>
@@ -25,22 +25,34 @@
 
 ## Ejecución
 <ol>
+    <li>
+        Clonar el proyecto:<br>
+        git clone https://github.com/camduarte/camd-geek.git
+    </li>
     <li>Ubicarse en la raíz del proyecto.</li>
-    <li>Instalar Node.js
-        <a>https://nodejs.org/es/</a>
+    <li>Instalar Node.js<br>
+        <a href="https://nodejs.org/es/" target="_blank">Visitar Node.js</a>
     </li>
-    <li>Instalar json-server: npm install -g json-server
-        <a>https://www.npmjs.com/package/json-server</a>
+    <li>Instalar json-server:<br>
+        npm install -g json-server<br>
+        <a href="https://www.npmjs.com/package/json-server" target="_blank">Visitar json-server</a>
     </li>
-    <li>Lanzar json-server: json-server --watch db.json</li>
+    <li>Lanzar json-server:<br>
+        json-server --watch db.json
+    </li>
     <li>Ejecutar en el servidor local de desarrollo nuestro proyecto:
         <ul>
             <li>Podes utilizar Live Server desde el Visual Studio o</li>
             <li>
                 Podes utilizar Browser sync
                 <ol>
-                    <li>Instalar Browser sync: npm install -g browser-sync <a>httpsbrowsersync.io/</a></li>
-                    <li>Lanzar el servidor: browser-sync start --server --file . --host --port 5000 --startPath ./index.html</li>
+                    <li>Instalar Browser sync:<br>
+                        npm install -g browser-sync<br>
+                        <a href="https://browsersync.io/" target="_blank">Visitar Browser sync</a>
+                    </li>
+                    <li>Lanzar el servidor:<br>
+                        browser-sync start --server --file . --host --port 5000 --startPath ./index.html
+                    </li>
                 <ol>
             </li>
         </ul>
