@@ -16,20 +16,23 @@
 }
 
 .header__search {
-    align-items: center;
     background-color: var(--light-grey);
     border-radius: 20px;
     box-sizing: border-box;
     color: var(--dark-grey);
-    display: flex;
     font-size: 0.875;
     font-style: normal;
     font-weight: 400;
     height: 2.5rem;
-    justify-content: space-between;
-    line-height: 1rem;
     padding: 0.5rem 1rem;
     width: 24.563rem;
+}
+
+.header__fieldset {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .header__search-field {
@@ -37,6 +40,13 @@
     border: none;
     outline: none;
     width: 95%;
+}
+
+.header_search-button {
+    background-color: transparent;
+    border: none;
+    color: var(--dark-grey);
+    text-decoration: none;
 }
 
 .header__search-icon {
