@@ -155,7 +155,7 @@
       "id": 5,
       "category": "console",
       "name": "Sega Genesis Model 2 Original",
-      "img": "https://http2.mlstatic.com/D_NQ_NP_851687-MLA53447967174_012023-O.webp",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_862756-MLA53602883747_022023-O.webp",
       "description": "Consola Origonal. Muy buen estado estético, funcionando correctamente.<br>Incluye<br>°joystick 3 botones réplica de los años 90.<br>° fuente genérica<br>° cable AV genérico",
       "price": "50.000",
       "link": "#"
@@ -185,6 +185,22 @@
       "name": "Nintendo Game Boy Pocket color amarillo",
       "price": "450.000",
       "description": "Con tu consola Game Boy Pocket tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos."
+    },
+    {
+      "id": "74fdd38e-8af9-4bed-bc1d-094a4df15fa3",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_755170-MLA53423263877_012023-O.webp",
+      "category": "console",
+      "name": "Consola Atgames Atari Flashback 7 Color Negro",
+      "price": "27.100",
+      "description": "El clásico está de vuelta! Siguiendo los pasos de Sega y Nintendo, que relanzaron sus consolas en versiones modernizadas, con juegos en la memoria, y tamaño reducido, AtGames lanzó el Atari Flashback 7<br>El Flashback 7 es una consola en los moldes del clásico Atari 2600, la consola popular en los años 80. Funciona en cualquier televisor, sólo tiene que conectar y jugar. Soporta 2 jugadores, tiene control inalámbrico con botón para acceso al menú y 101 juegos en la memoria, incluyendo Space Inva"
+    },
+    {
+      "id": "303148fc-567d-4975-ad66-b19ba4ae52ee",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_638791-MLA43624025500_092020-O.webp",
+      "category": "console",
+      "name": "Sony Playstation 4 Pro 1tb + 2 Joystick + Juego Fisico",
+      "price": "365.212",
+      "description": "No solo vas a poder descargar los mejores videojuegos y navegar en la web sin límite, sino que, gracias a su interconectividad global, también vas a tener la posibilidad de competir en línea con tus amigos y con personas de todas partes del mundo disfrutando de aventuras inolvidables.\n\nCalidad de otro nivel\nSe considera que esta consola es la mejor dentro del mercado, dado que presenta una resolución de hasta 4K.\nVas a poder reproducir música, ver tus películas y series favoritas a través de las"
     }
   ],
   "various": [

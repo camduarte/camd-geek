@@ -12,6 +12,10 @@ import { clientServices } from "../client-service-v5.js"
     
         clientServices.createProduct(
             clientServices.POST, clientServices.URL, category, img, category, name, price, description)
-            .then(response => window.location.href = "../html/successful.html").catch(error => console.log(error));
+            .then(response => window.location.href = "../../html/successful.html")
+            .catch(error => {
+                console.log(error);
+                window.location.href = "../../html/error.html";
+            });
     });
 })();
