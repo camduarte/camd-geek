@@ -70,11 +70,23 @@ const deleteProduct = (url, table, id) => {
     });
 }
 
+/**
+ * Gest the product by id.
+ * @param {*} url The URL to json-server.
+ * @param {*} table The product table.
+ * @param {*} id The product id.
+ */
+const getProduct = (url, table, id) => {
+    return fetch(`${url}${table}/${id}`)
+    .then(response => response.json());
+}
+
 export const clientServices = {
     productList,
     searchProducts,
     createProduct,
     deleteProduct,
+    getProduct,
     POST,
     GET,
     PUT,
