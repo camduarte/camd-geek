@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar producto | CamdGeek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/banner.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/fake-placeholder.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/new-product.css">
+    <script src="https://kit.fontawesome.com/070f11682f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="logo"><i class="fa-solid fa-gamepad logo__gamepad"></i><span class="logo__camd"> Camd</span>Geek</h1>
+            <form class="header__search header__form" id="search-form" role="search" action="./result.html" method="get">
+                <fieldset class="header__fieldset" form="search-form">
+                    <input class="header__search-field" type="search" form="search-form" name="searchTerm" id="search" placeholder="¿Qué deseas buscar?" minlength="2" maxlength="50" required>
+                    <button class="header_search-button" type="submit" form="search-form"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </fieldset>
+            </form>
+        </div>
+        <a href="#" class="transparent-btn menu-admin">Menú Administrador</a>
+    </header>
+    <main class="main-container">
+        <form class="product" id="product" action="" method="post" data-form>
+            <fieldset class="product__fields" form="product">
+                <legend class="product__title">Editar producto</legend>
+                <div class="field-container">
+                    <input class="product__img field-text field" id="img" type="text" name="img" form="product" placeholder="URL de imagen" required data-img>
+                    <label class="fake-placeholder" for="img">URL de imágen</label>
+                </div>
+                <div class="field-container">
+                    <input class="product__category field-text field" id="category" type="text" name="category" form="product" placeholder="Categoría" required data-category>
+                    <label class="fake-placeholder" for="category">Categoría</label>
+                </div>
+                <div class="field-container">
+                    <input class="product__name field-text field" id="productname" type="text" name="productname" form="product" placeholder="Nombre del producto" required data-name>
+                    <label class="fake-placeholder" for="productname">Nombre del producto</label>
+                </div>
+                <div class="field-container">
+                    <input class="product__price field-text field" id="price" type="text" name="price" form="product" placeholder="Precio del producto" required data-price>
+                    <label class="fake-placeholder" for="price">Precio del producto</label>
+                </div>
+                <div class="field-container">
+                    <textarea class="product__description textarea field" id="description" name="description" minlength="12" maxlength="500" form="product" placeholder="Descripción del producto" required data-description></textarea>
+                    <label class="fake-placeholder" for="description">Descripción del producto</label>
+                </div>
+                <button class="product__btn submit-btn" type="submit">Guardar cambios</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <section class="info">
+            <h1 class="logo"><i class="fa-solid fa-gamepad logo__gamepad"></i><span class="logo__camd"> Camd</span>Geek</h1>
+            <ul class="info__list">
+                <li class="info__item"><a class="no-decor" href="#">Quienes somos</a></li>
+                <li class="info__item"><a class="no-decor" href="#">Política de privacidad</a></li>
+                <li class="info__item"><a class="no-decor" href="#">Programa de fidelidad</a></li>
+                <li class="info__item"><a class="no-decor" href="#">Nuestras tiendas</a></li>
+                <li class="info__item"><a class="no-decor" href="#">Quiero ser franquiciado</a></li>
+                <li class="info__item"><a class="no-decor" href="#">Anuncie aquí</a></li>
+            </ul>
+            <form id="contact" action="#" method="post">
+                <fieldset class="info__contact" form="contact">
+                    <legend class="info__contact-title">Hable con nosotros</legend>
+                    <div class="field-container">
+                        <input class="info__contact-name field-text field" id="name" type="text" name="name" form="contact" placeholder="Nombre" required>
+                        <label class="fake-placeholder" for="name">Nombre</label>
+                    </div>
+                    <div class="field-container">
+                        <textarea class="info__contact-message textarea field" id="message" name="message" minlength="12" maxlength="160" form="contact" placeholder="Escribe tu mensaje" required></textarea>
+                        <label class="fake-placeholder" for="message">Escribe tu mensaje</label>
+                    </div>
+                    <button class="info__contact-btn blue-btn" type="submit">Enviar mensaje</button>
+                </fieldset>
+            </form>
+        </section>
+        <section class="author">
+            <p class="author__text">Desarrollado por Christian Ariel Modesto Duarte<br>2023</p>
+        </section>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../js/controller/register-controller.js"></script>
+</body>
+</html>

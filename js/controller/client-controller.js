@@ -22,7 +22,7 @@ import { clientServices } from "../client-service-v5.js"
             <img class="product__img" src="${img}" alt="Producto">
             <div class="product__remove-edit">
                 <button id="${id}" class="icon-btn remove-btn"><i class="fa-solid fa-trash no-decor remove-icon"></i></button>
-                <a class="" href="#"><i class="fa-solid fa-pen no-decor edit-icon"></i></a>
+                <a class="" href="../../html/edit-product.html?id=${id}"><i class="fa-solid fa-pen no-decor edit-icon"></i></a>
             </div>
         </div>  
         <p class="product__description">${name}</p>
