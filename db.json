@@ -9,7 +9,7 @@
   "starwars": [
     {
       "id": 1,
-      "category": "Star Wars",
+      "category": "starwars",
       "name": "Star Wars - The Child - Baby Yoda - The Mandalorian Original",
       "img": "https://http2.mlstatic.com/D_NQ_NP_633242-MLA50325354395_062022-O.webp",
       "description": "Mattel, persigue la diversión y la fabricación de juguetes como horizonte a seguir.",
@@ -18,7 +18,7 @@
     },
     {
       "id": 2,
-      "category": "Star Wars",
+      "category": "starwars",
       "name": "Cascos Star Wars | Solo Impresión | Cosplay | Hobbies",
       "img": "https://http2.mlstatic.com/D_NQ_NP_946221-MLA53551122162_012023-O.webp",
       "description": "Colección Star Wars \"Cascos talle S y M\". SOLO IMPRESIÓN EN TALLE S Y M SIN POSTPROSESADO.",
@@ -27,7 +27,7 @@
     },
     {
       "id": 3,
-      "category": "Star Wars",
+      "category": "starwars",
       "name": "Casco Darth Vader (trabajado) Impresion 3d | Star Wars",
       "img": "https://http2.mlstatic.com/D_NQ_NP_951253-MLA52322181085_112022-O.webp",
       "description": "Casco Darth Vader impreso en 3D. El casco es completamente lijado, masillado y pintado para que no se noten las lineas de impresión y quede completamente finalizado",
@@ -36,7 +36,7 @@
     },
     {
       "id": 4,
-      "category": "Star Wars",
+      "category": "starwars",
       "name": "Star Wars Mandalorian Razor Crest Model Kit Bandai Replay",
       "img": "https://http2.mlstatic.com/D_NQ_NP_785778-MLA53563815137_022023-O.webp",
       "description": "Agregue a su colección The Mandalorian con este kit modelo de Razor Crest!.",
@@ -45,7 +45,7 @@
     },
     {
       "id": 5,
-      "category": "Star Wars",
+      "category": "starwars",
       "name": "Funko Pop! Star Wars Stormtrooper Galactic Convention #510",
       "img": "https://http2.mlstatic.com/D_NQ_NP_851687-MLA53447967174_012023-O.webp",
       "description": "Figura de 12cms de altura aproximadamente. ORIGINAL.",
@@ -54,7 +54,7 @@
     },
     {
       "id": 6,
-      "category": "Star Wars",
+      "category": "starwars",
       "name": "Star Wars Colección Completa Dvd - Saga Completa Latino",
       "img": "https://http2.mlstatic.com/D_NQ_NP_603491-MLA52937140858_122022-O.webp",
       "description": "STAR WARS LA SAGA COMPLETA Contenido",
@@ -63,7 +63,7 @@
     },
     {
       "id": 7,
-      "category": "Star Wars",
+      "category": "starwars",
       "name": "Taza Tazón Star Wars Darth Vader",
       "img": "https://http2.mlstatic.com/D_NQ_NP_689541-MLA50539885099_072022-O.webp",
       "description": "Taza Tazón Star Wars Darth Vader de 250ml",
@@ -72,7 +72,7 @@
     },
     {
       "id": 8,
-      "category": "Star Wars",
+      "category": "starwars",
       "name": "Lámpara Led 3d Grogu Baby Yoda Star Wars Rgb Control Remoto",
       "img": "https://http2.mlstatic.com/D_NQ_NP_994354-MLA50232410731_062022-O.webp",
       "description": "¡NUEVO! - LÁMPARA 3D LED RGB -<br>Modelo: Grogu / Baby Yoda 1<br>Medidas aproximadas: 20x15cm<br>La Base LED incluye + de 15 colores y tipos de iluminación para que ambientes tu espacio de la forma mas canchera y moderna!<br>Decorá con tus modelos favoritos y disfrutá de tu nueva lámpara!<br>Recomendamos limpiar el acrílico con un paño húmedo en alcohol para perfeccionar la transparencia.<br>La caja incluye:<br>- Acrílico de 4mm grabado<br>- Base RGB Táctil (alimentación con 2 pilas AA -no incluidas- y cable usb)<br>- Cable USB Universal<br>- Control Remoto con pila",
@@ -81,7 +81,7 @@
     },
     {
       "id": 9,
-      "category": "Star Wars",
+      "category": "starwars",
       "name": "Lámpara Led 3d Star Wars R2d2",
       "img": "https://http2.mlstatic.com/D_NQ_NP_777909-MLA45826671965_052021-O.webp",
       "description": "LAMPARA LED RGB ILUSION 3D HOLOGRAMA<br>HERMOSO REGALO !!!<br>CONTROL REMOTO PARA CAMBIO DE COLORES. RGB 16 COLORES Y 4 FUNCIONES ADICIONALES DE SECUENCIAS DE CAMBIO.<br>ALIMENTACIÓN FUENTE 220 V - 12 V CON INTERRUPTOR ON/OFF<br>EXCELENTE CALIDAD - SOMOS FABRICANTES.<br>HACEMOS FACTURA A / B<br>ENVIOS A TODO EL PAÍS<br>ENVIOS A CABA Y GBA EN EL DÍA CON ENVIOS FLEX.",
@@ -90,7 +90,7 @@
     },
     {
       "id": 10,
-      "category": "Star Wars",
+      "category": "starwars",
       "name": "Mochila | Star Wars - R2d2",
       "img": "https://http2.mlstatic.com/D_NQ_NP_844305-MLA51471539886_092022-O.webp",
       "description": "PRODUCTO MOCHILA<br>MODELO STAR WARS<br>MATERIAL CORDURA<br>DETALLES<br>BOLSILLO PRINCIPAL CON CIERRE<br>BOLSILLO FRONTAL CON CIERRE<br>MEDIDAS LARGO: 40cm<br>PROFUNDIDAD: 12cm<br>ANCHO: 30cm",
@@ -98,12 +98,12 @@
       "link": "#"
     },
     {
+      "id": "e03c565f-57e6-4330-a006-5da8791fcc12",
       "img": "https://http2.mlstatic.com/D_NQ_NP_761773-MLA45003477799_022021-O.webp",
       "category": "starwars",
       "name": "Sables Star Wars - Jedi Vs Sith. Pack Con 2 Unidades",
       "price": "2.600",
-      "description": "Juego de Sabers Star Wars Jedi vs Sith!<br>Rellenos de vellon siliconado, juego de descarga antistress.<br>El pack incluye 2 sables (1 de cada color)<br>Miden 45cm de alto.",
-      "id": "e03c565f-57e6-4330-a006-5da8791fcc12"
+      "description": "Juego de Sabers Star Wars Jedi vs Sith!<br>Rellenos de vellon siliconado, juego de descarga antistress.<br>El pack incluye 2 sables (1 de cada color)<br>Miden 45cm de alto."
     },
     {
       "id": "995baedb-eb25-415d-a78a-d9d80418d4f2",
@@ -112,6 +112,14 @@
       "name": "Lego Star Wars - Pack De Combate: Jedi Y Soldados Clon 75206",
       "price": "29.900",
       "description": "Con 90 años de trayectoria, Lego es uno de los principales fabricantes mundiales de materiales de juego. Para la marca, el juego es vital en el desarrollo de todos los niños y niñas, ya que les ayuda "
+    },
+    {
+      "id": "30f353a7-51ea-4d5c-9976-fcf22da9575c",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_657750-MLA52710106684_122022-O.webp",
+      "category": "starwars",
+      "name": "Stromtrooper Casco Electronico Black Series Hasbro Scarlet",
+      "price": "89.990",
+      "description": "Stormtrooper Casco Electronico First Order The Black Series<br>Tamaño: 30 x 31 cms<br>Distorsiona la voz<br>Original Hasbro Licencia Marvel<br>Producto Nuevo y en su embalaje original"
     }
   ],
   "console": [

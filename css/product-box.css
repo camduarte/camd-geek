@@ -63,4 +63,5 @@
 
 .remove-icon, .edit-icon {
     color: var(--neon-orange);
+    font-size: 1.188rem;
 }
