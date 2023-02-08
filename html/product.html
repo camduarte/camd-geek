@@ -33,11 +33,11 @@
     </header>
     <main class="main-container">
         <section class="selected-product">
-            <img class="selected-product__img" src="../img/db-mate.png" alt="Producto">
+            <img class="selected-product__img" src="../img/db-mate.png" alt="Producto" data-img>
             <div class="selected-product__info">
-                <h2 class="selected-product__name">Nombre producto</h2>
-                <p class="selected-product__price">$ XXX.XX</p>
-                <p class="selected-product_description">Descripción del producto.</p>
+                <h2 class="selected-product__name" data-name>Nombre producto</h2>
+                <p class="selected-product__price" data-price>$ XXX.XX</p>
+                <p class="selected-product_description" data-description>Descripción del producto.</p>
             </div>
         </section>
         <section class="products">
@@ -106,5 +106,6 @@
             <p class="author__text">Desarrollado por Christian Ariel Modesto Duarte<br>2023</p>
         </section>
     </footer>
+    <script type="module" src="../js/controller/product-controller.js"></script>
 </body>
 </html>
