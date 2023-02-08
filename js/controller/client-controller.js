@@ -12,7 +12,7 @@ import { clientServices } from "../client-service-v5.js"
      * @param {*} price The product price.
      * @param {*} link The link to the product view.
      */
-    const createProduct = (id, category, img, name, price, link) => {
+    const createProduct = (id, category, img, name, price) => {
         const div = document.createElement("div");
         div.classList.add("products__product");
 
@@ -24,10 +24,10 @@ import { clientServices } from "../client-service-v5.js"
                 <button id="${id}" class="icon-btn remove-btn"><i class="fa-solid fa-trash no-decor remove-icon"></i></button>
                 <a class="" href="../../html/edit-product.html?id=${id}&category=${category}"><i class="fa-solid fa-pen no-decor edit-icon"></i></a>
             </div>
-        </div>  
+        </div>
         <p class="product__description">${name}</p>
         <p class="product__price">$ ${price}</p>
-        <a class="no-decor product__link" href="${link}">Ver producto</a>
+        <a class="no-decor product__link" href="../../html/product.html?id=${id}&category=${category}">Ver producto</a>
         `;
 
         div.innerHTML = content;
@@ -50,21 +50,21 @@ import { clientServices } from "../client-service-v5.js"
 
     clientServices.productList(clientServices.GET, clientServices.URL, clientServices.TB_STARWARS).then((data) => {
         data.forEach(product => {
-            const productHTML = createProduct(product.id, product.category, product.img, product.name, product.price, product.link);
+            const productHTML = createProduct(product.id, product.category, product.img, product.name, product.price);
             produtsContainer.appendChild(productHTML);
         });
     }).catch(error => alert(clientServices.MSG_ERROR));
 
     clientServices.productList(clientServices.GET, clientServices.URL, clientServices.TB_CONSOLE).then((data) => {
         data.forEach(product => {
-            const productHTML = createProduct(product.id, product.category, product.img, product.name, product.price, product.link);
+            const productHTML = createProduct(product.id, product.category, product.img, product.name, product.price);
             consolesContainer.appendChild(productHTML);
         });
     }).catch(error => alert(clientServices.MSG_ERROR));
 
     clientServices.productList(clientServices.GET, clientServices.URL, clientServices.TB_VARIOUS).then((data) => {
         data.forEach(product => {
-            const productHTML = createProduct(product.id, product.category, product.img, product.name, product.price, product.link);
+            const productHTML = createProduct(product.id, product.category, product.img, product.name, product.price);
             variousContainer.appendChild(productHTML);
         });
     }).catch(error => alert(clientServices.MSG_ERROR));
