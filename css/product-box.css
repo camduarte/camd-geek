@@ -14,16 +14,15 @@
 }
 
 .img-container {
-    align-items: center;
-    background-color: var(--white);
-    display: flex;
     height: 10.875rem;
-    overflow: hidden;
     position: relative;
     width: 100%;
 }
 
 .product__img {
+    background-color: var(--white);
+    height: 100%;
+    object-fit: contain;
     width: 100%;
 }
 
