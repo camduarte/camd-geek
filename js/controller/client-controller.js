@@ -53,19 +53,28 @@ import { clientServices } from "../client-service-v5.js"
             const productHTML = createProduct(product.id, product.category, product.img, product.name, product.price);
             produtsContainer.appendChild(productHTML);
         });
-    }).catch(error => alert(clientServices.MSG_ERROR));
+    }).catch((error) => {
+        console.log(error);
+        window.location.href = "../../html/error.html"
+    });
 
     clientServices.productList(clientServices.GET, clientServices.URL, clientServices.TB_CONSOLE).then((data) => {
         data.forEach(product => {
             const productHTML = createProduct(product.id, product.category, product.img, product.name, product.price);
             consolesContainer.appendChild(productHTML);
         });
-    }).catch(error => alert(clientServices.MSG_ERROR));
+    }).catch((error) => {
+        console.log(error);
+        window.location.href = "../../html/error.html"
+    });
 
     clientServices.productList(clientServices.GET, clientServices.URL, clientServices.TB_VARIOUS).then((data) => {
         data.forEach(product => {
             const productHTML = createProduct(product.id, product.category, product.img, product.name, product.price);
             variousContainer.appendChild(productHTML);
         });
-    }).catch(error => alert(clientServices.MSG_ERROR));
+    }).catch((error) => {
+        console.log(error);
+        window.location.href = "../../html/error.html"
+    });
 })();

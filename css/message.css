@@ -1,3 +1,7 @@
+.menu-admin {
+    display: none;
+}
+
 .main-container {
     background-color: var(--light-grey);
     display: flex;
