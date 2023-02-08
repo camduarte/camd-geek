@@ -14,6 +14,10 @@ import { clientServices } from "../client-service-v5.js";
     clientServices.getProduct(clientServices.URL, category, id)
     .then((product) => {
         imgField.value = product.img;
+        categoryField.value = product.category;
+        nameField.value = product.name;
+        priceField.value = product.price;
+        descriptionField.value = product.description;
     })
     .catch((error) => {
         console.log(error);
