@@ -9,7 +9,10 @@ import { clientServices } from "../client-service-v5.js"
         const name = document.querySelector("[data-name]").value;
         const price = document.querySelector("[data-price]").value;
         const description = document.querySelector("[data-description]").value;
-    
+
+
+        console.log("click");
+
         clientServices.createProduct(
             clientServices.POST, clientServices.URL, category, img, category, name, price, description)
             .then(response => window.location.href = "../../html/successful.html")

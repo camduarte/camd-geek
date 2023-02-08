@@ -81,12 +81,22 @@ const getProduct = (url, table, id) => {
     .then(response => response.json());
 }
 
+const editProduct = (url, table, id, img, category, name, price, description) => {
+    return fetch(`${url}${table}/${id}`, {
+        method: PUT,
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({img, category, name, price, description})
+    }).then((respuesta) => respuesta)
+    .catch((error) => console.log(error));
+}
+
 export const clientServices = {
     productList,
     searchProducts,
     createProduct,
     deleteProduct,
     getProduct,
+    editProduct,
     POST,
     GET,
     PUT,
