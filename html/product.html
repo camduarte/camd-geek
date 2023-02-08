@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../css/fake-placeholder.css">
     <link rel="stylesheet" href="../css/form.css">
     <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="../css/product-box.css">
     <script src="https://kit.fontawesome.com/070f11682f.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -33,7 +34,7 @@
     </header>
     <main class="main-container">
         <section class="selected-product">
-            <div class="img-container">
+            <div class="selected-product__img-container">
                 <img class="selected-product__img" src="../img/db-mate.png" alt="Producto" data-img>
             </div>
             <div class="selected-product__info">
@@ -44,38 +45,7 @@
         </section>
         <section class="products">
             <h3 class="products__title">Productos similares</h3>
-            <div class="products__container">
-                <div class="products__product">
-                    <img src="../img/grogu.png" alt="Producto">
-                    <p class="product__description">Descripción</p>
-                    <p class="product__price">$ 60,00</p>
-                    <a class="no-decor product__link" href="#">Ver producto</a>
-                </div>
-                <div class="products__product">
-                    <img src="../img/grogu.png" alt="Producto">
-                    <p class="product__description">Descripción</p>
-                    <p class="product__price">$ 60,00</p>
-                    <a class="no-decor product__link" href="#">Ver producto</a>
-                </div>
-                <div class="products__product">
-                    <img src="../img/grogu.png" alt="Producto">
-                    <p class="product__description">Descripción</p>
-                    <p class="product__price">$ 60,00</p>
-                    <a class="no-decor product__link" href="#">Ver producto</a>
-                </div>
-                <div class="products__product">
-                    <img src="../img/grogu.png" alt="Producto">
-                    <p class="product__description">Descripción</p>
-                    <p class="product__price">$ 60,00</p>
-                    <a class="no-decor product__link" href="#">Ver producto</a>
-                </div>
-                <div class="products__product">
-                    <img src="../img/grogu.png" alt="Producto">
-                    <p class="product__description">Descripción</p>
-                    <p class="product__price">$ 60,00</p>
-                    <a class="no-decor product__link" href="#">Ver producto</a>
-                </div>
-            </div>
+            <div class="products__container" data-products></div>
         </section>
     </main>
     <footer>
