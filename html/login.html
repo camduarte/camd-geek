@@ -32,15 +32,15 @@
         <a href="./html/login.html" class="header__btn transparent-btn">Login</a>
     </header>
     <main class="main-container">
-        <form class="login" id="login" action="#" method="post">
+        <form class="login" id="login" action="#" method="post" data-login>
             <fieldset class="login__fields" form="login">
                 <legend class="login__title">Iniciar Sesión</legend>
                 <div class="field-container">
-                    <input class="login__field field-text field" type="email" name="email" id="email" form="login" placeholder="Escriba su correo electrónico" required>
+                    <input class="login__field field-text field" type="email" name="email" id="email" form="login" placeholder="Escriba su correo electrónico" required data-email>
                     <label for="email" class="fake-placeholder">Escriba aquí su correo electrónico</label>
                 </div>
                 <div class="field-container">
-                    <input class="login__field field-text field" type="password" name="password" id="password" form="login" placeholder="Escriba su contraseña" required>
+                    <input class="login__field field-text field" type="password" name="password" id="password" form="login" placeholder="Escriba su contraseña" required data-password>
                     <label for="password" class="fake-placeholder">Escriba su contraseña</label>
                 </div>
                 <button class="login__btn submit-btn" type="submit">Entrar</button>
@@ -77,5 +77,6 @@
             <p class="author__text">Desarrollado por Christian Ariel Modesto Duarte<br>2023</p>
         </section>
     </footer>
+    <script type="module" src="../js/controller/login-controller.js"></script>
 </body>
 </html>

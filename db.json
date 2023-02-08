@@ -3,7 +3,8 @@
     {
       "id": 1,
       "email": "admin@camdgeek.com",
-      "password": "admin"
+      "password": "admin",
+      "role" : "admin"
     }
   ],
   "starwars": [
