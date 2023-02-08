@@ -14,7 +14,7 @@ import { clientServices } from "../client-service-v5.js";
         // Sets html fields
         document.querySelector("[data-img]").src = product.img;
         document.querySelector("[data-name]").innerHTML = product.name;
-        document.querySelector("[data-price]").innerHTML = product.price;
+        document.querySelector("[data-price]").innerHTML = "$ " + product.price;
         document.querySelector("[data-description]").innerHTML = product.description;
 
     }).catch(error => {
