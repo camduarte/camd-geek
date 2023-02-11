@@ -1,0 +1,24 @@
+.input-container--invalid {
+    margin-bottom: 0.5rem;
+}
+
+.input-container--invalid .input {
+  border: 1px solid var(--warning-color);
+  border-radius: 7px;
+}
+
+.input-container--invalid .input-label {
+    color: var(--warning-color);
+    opacity: 1;
+}
+
+.input-container--invalid .input-message-error {
+    color: var(--warning-color);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+.input-message-error {
+    display: none;
+}

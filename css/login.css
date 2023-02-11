@@ -15,7 +15,8 @@
 .login__fields {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: repeat(3, 3.938rem);
+   /* grid-template-rows: repeat(3, 3.938rem);*/
+    grid-template-rows: auto;
     row-gap: 1.5rem;
     width: 26.438rem;
 }
@@ -28,4 +29,8 @@
     line-height: 1.313rem;
     margin-bottom: 1rem;
     text-align: center;
+}
+
+.login__email, .login__password, .login__btn {
+    height: 3.938rem;
 }

@@ -39,5 +39,4 @@ import { loginService } from "../service/login-service.js";
         }
         return false;
     }
-
 })();
