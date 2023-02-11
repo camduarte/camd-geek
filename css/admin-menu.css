@@ -1,0 +1,14 @@
+.main-container {
+    background-color: var(--light-grey);
+}
+.title {
+    align-items: center;
+    color: var(--black);
+    display: flex;
+    font-family: var(--font-family-raleway);
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: normal;
+    justify-content: center;
+    padding: 4rem;
+}

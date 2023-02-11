@@ -14,7 +14,7 @@ import { loginService } from "../service/login-service.js";
         .then((response => {
             const user = response[0];
             if (checkCredentials(user, email, password)) {
-                window.location.href = "../../index.html"
+                window.location.href = "../../html/admin-menu.html"
             } else {
                 window.location.href = "../../html/login-error.html"
             }
