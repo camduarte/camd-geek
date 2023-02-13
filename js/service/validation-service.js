@@ -60,6 +60,7 @@ const errorMessage = {
   email: {
     valueMissing: "El campo correo no puede estar vacío.",
     typeMismatch: "El correo no es válido",
+    customError: "Este campo no puede estar en blanco."
   },
   password: {
     valueMissing: "El campo contraseña no puede estar vacío.",
@@ -130,5 +131,6 @@ const validators = {
   message : (input) => checkWhiteSpaces(input),
   category : (input) => checkWhiteSpaces(input),
   description : (input) => checkWhiteSpaces(input),
-  image : (input) => checkWhiteSpaces(input)
+  image : (input) => checkWhiteSpaces(input),
+  email : (input) => checkWhiteSpaces(input)
 }
