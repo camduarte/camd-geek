@@ -89,6 +89,21 @@ const errorMessage = {
   message: {
     valueMissing: "Este campo no puede estar vacío.",
     customError: "Este campo no puede estar en blanco."
+  },
+  category: {
+    valueMissing: "Este campo no puede estar vacío.",
+    customError: "Este campo no puede estar en blanco."
+  },
+  price: {
+    valueMissing: "Este campo no puede estar vacío.",
+  },
+  description: {
+    valueMissing: "Este campo no puede estar vacío.",
+    customError: "Este campo no puede estar en blanco."
+  },
+  image: {
+    valueMissing: "Este campo no puede estar vacío.",
+    customError: "Este campo no puede estar en blanco."
   }
 };
 
@@ -112,5 +127,8 @@ const checkWhiteSpaces = (input) => {
  */
 const validators = {
   name : (input) => checkWhiteSpaces(input),
-  message : (input) => checkWhiteSpaces(input)
+  message : (input) => checkWhiteSpaces(input),
+  category : (input) => checkWhiteSpaces(input),
+  description : (input) => checkWhiteSpaces(input),
+  image : (input) => checkWhiteSpaces(input)
 }

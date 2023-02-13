@@ -38,24 +38,29 @@
             <fieldset class="product__fields" form="product">
                 <legend class="product__title">Agregar nuevo producto</legend>
                 <div class="field-container">
-                    <input class="product__img field-text field" id="img" type="text" name="img" form="product" placeholder="URL de imagen" required data-img>
-                    <label class="fake-placeholder" for="img">URL de imágen</label>
+                    <input class="product__img field-text field input" id="img" type="text" name="img" form="product" placeholder="URL de imagen" required data-img data-type="image">
+                    <label class="fake-placeholder input-label" for="img">URL de imágen</label>
+                    <span class="input-message-error">Este campo no es válido</span>
                 </div>
                 <div class="field-container">
-                    <input class="product__category field-text field" id="category" type="text" name="category" form="product" placeholder="Categoría" required data-category>
-                    <label class="fake-placeholder" for="category">Categoría</label>
+                    <input class="product__category field-text field input" id="category" type="text" name="category" form="product" placeholder="Categoría" maxlength="20" required data-category data-type="category">
+                    <label class="fake-placeholder input-label" for="category">Categoría</label>
+                    <span class="input-message-error">Este campo no es válido</span>
                 </div>
                 <div class="field-container">
-                    <input class="product__name field-text field" id="productname" type="text" name="productname" form="product" placeholder="Nombre del producto" required data-name>
-                    <label class="fake-placeholder" for="productname">Nombre del producto</label>
+                    <input class="product__name field-text field input" id="productname" type="text" name="productname" form="product" placeholder="Nombre del producto" maxlength="20" required data-name data-type="name">
+                    <label class="fake-placeholder input-label" for="productname">Nombre del producto</label>
+                    <span class="input-message-error">Este campo no es válido</span>
                 </div>
                 <div class="field-container">
-                    <input class="product__price field-text field" id="price" type="text" name="price" form="product" placeholder="Precio del producto" required data-price>
-                    <label class="fake-placeholder" for="price">Precio del producto</label>
+                    <input class="product__price field-text field input" id="price" type="number" step="any" min="0" max="1000000000" name="price" form="product" placeholder="Precio del producto" required data-price data-type="price">
+                    <label class="fake-placeholder input-label" for="price">Precio del producto</label>
+                    <span class="input-message-error">Este campo no es válido</span>
                 </div>
                 <div class="field-container">
-                    <textarea class="product__description textarea field" id="description" name="description" minlength="12" maxlength="500" form="product" placeholder="Descripción del producto" required data-description></textarea>
-                    <label class="fake-placeholder" for="description">Descripción del producto</label>
+                    <textarea class="product__description textarea field input" id="description" name="description" maxlength="150" form="product" placeholder="Descripción del producto" required data-description data-type="description"></textarea>
+                    <label class="fake-placeholder input-label" for="description">Descripción del producto</label>
+                    <span class="input-message-error">Este campo no es válido</span>
                 </div>
                 <button class="product__btn submit-btn" type="submit">Agregar producto</button>
             </fieldset>

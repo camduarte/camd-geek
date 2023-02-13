@@ -10,7 +10,7 @@
 .product__fields {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 3.5rem 3.5rem 3.5rem 3.5rem 5.125rem 3.5rem ;
+    grid-template-rows: auto ;
     row-gap: 1rem;
     width: 34.938rem;
     margin: 0 auto;
@@ -34,4 +34,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.25rem;
+}
+
+.product__img, .product__category, .product__name, 
+.product__price {
+    height: 3.5rem;
+}
+
+.product__description {
+    height: 5.125rem;
 }
