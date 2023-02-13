@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/fake-placeholder.css">
     <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/error-input.css">
     <link rel="stylesheet" href="../css/new-product.css">
     <script src="https://kit.fontawesome.com/070f11682f.js" crossorigin="anonymous"></script>
 </head>
@@ -75,12 +76,14 @@
                 <fieldset class="info__contact" form="contact">
                     <legend class="info__contact-title">Hable con nosotros</legend>
                     <div class="field-container">
-                        <input class="info__contact-name field-text field" id="name" type="text" name="name" form="contact" placeholder="Nombre" required>
-                        <label class="fake-placeholder" for="name">Nombre</label>
+                        <input class="info__contact-name field-text field input" id="name" type="text" inputmode="text" autocomplete="given-name" name="name" form="contact" maxlength="40" required placeholder="Nombre" data-type="name">
+                        <label class="fake-placeholder input-label" for="name">Nombre</label>
+                        <span class="input-message-error">Este campo no es válido</span>
                     </div>
                     <div class="field-container">
-                        <textarea class="info__contact-message textarea field" id="message" name="message" minlength="12" maxlength="160" form="contact" placeholder="Escribe tu mensaje" required></textarea>
-                        <label class="fake-placeholder" for="message">Escribe tu mensaje</label>
+                        <textarea class="info__contact-message textarea field input" id="message" name="message" maxlength="120" form="contact" placeholder="Escribe tu mensaje" required data-type="message"></textarea>
+                        <label class="fake-placeholder input-label" for="message">Escribe tu mensaje</label>
+                        <span class="input-message-error">Este campo no es válido</span>
                     </div>
                     <button class="info__contact-btn blue-btn" type="submit">Enviar mensaje</button>
                 </fieldset>
@@ -91,5 +94,6 @@
         </section>
     </footer>
     <script type="module" src="../js/controller/edit-controller.js"></script>
+    <script type="module" src="../js/controller/form-controller.js"></script>
 </body>
 </html>
