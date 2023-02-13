@@ -14,6 +14,7 @@ import { loginService } from "../service/login-service.js";
         .then((response => {
             const user = response[0];
             if (checkCredentials(user, email, password)) {
+                localStorage.setItem("user", JSON.stringify(user)); // I save the login user.
                 window.location.href = "../../html/admin-menu.html"
             } else {
                 window.location.href = "../../html/login-error.html"

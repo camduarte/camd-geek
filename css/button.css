@@ -30,3 +30,11 @@
     background-color: transparent;
     border: none;
 }
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}

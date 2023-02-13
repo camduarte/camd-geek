@@ -33,6 +33,11 @@
     font-size: 4rem;
 }
 
+.message__icon-search {
+    color: var(--dark-grey);
+    font-size: 4rem;
+}
+
 .message__text {
     font-size: 1.75rem;
 }
