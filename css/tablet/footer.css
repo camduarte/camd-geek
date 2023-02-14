@@ -1,0 +1,35 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .info {
+        height: 22.75rem;
+        padding: 2rem;
+
+        display: grid;
+        grid-template-areas: "logo  form" 
+                             "lista form";
+    }
+
+    .logo {
+        grid-area: logo;
+    }
+
+    .info__list {
+        display: grid;
+        grid-area: lista;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(6, auto);
+        row-gap: 1.5rem;
+    }
+
+    .info__item {
+        margin-bottom: 0;
+    }
+
+    .info__form {
+        grid-area: form;
+    }
+
+    .info__contact {
+        width: 27.125rem;
+    }
+}
