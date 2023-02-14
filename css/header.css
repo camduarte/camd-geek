@@ -4,7 +4,7 @@
     display: flex;
     height: 7.188rem;
     justify-content: space-between;
-    padding: 0 9.5rem 0 9.5rem;
+    padding: 0 9.5rem;
 }
 
 .header__container {
@@ -20,7 +20,7 @@
     border-radius: 20px;
     box-sizing: border-box;
     color: var(--dark-grey);
-    font-size: 0.875;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
     height: 2.5rem;

@@ -7,7 +7,11 @@
 ## Tecnologías
 <ul>
     <li>HTML</li>
-    <li>CSS</li>
+    <li>CSS
+        <ul>
+            <li>Media Query</li>
+        </ul>
+    </li>
     <li>JavasScript
         <ul>
             <li>IIFE</li>
@@ -16,9 +20,10 @@
             <li>json-server</li>
             <li>json</li>
             <li>Rest</li>
+            <li>localStorage</li>
             <li>Arrow functions</li>
             <li>Events</li>
-            <li>Modules</li>
+            <li>Module</li>
         </ul>
     </li>
 </ul>
