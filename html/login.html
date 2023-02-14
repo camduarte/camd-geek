@@ -42,12 +42,12 @@
             <fieldset class="login__fields" form="login">
                 <legend class="login__title">Iniciar Sesión</legend>
                 <div class="field-container">
-                    <input class="login__field field-text field input login__email" type="email" name="email" id="email" form="login" placeholder="Escriba su correo electrónico" required data-email data-type="email">
+                    <input class="login__field field-text field input login__email" type="email" autocomplete="email" name="email" id="email" form="login" placeholder="Escriba su correo electrónico" required data-email data-type="email">
                     <label for="email" class="fake-placeholder input-label">Escriba aquí su correo electrónico</label>
                     <span class="input-message-error">Este campo no es válido</span>
                 </div>
                 <div class="field-container">
-                    <input class="login__field field-text field input login__password" type="password" inputmode="text" name="password" id="password" form="login" placeholder="Escriba su contraseña" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,10}$" title="Mínimo ocho y máximo 10 caracteres, al menos una letra mayúscula, una letra minúscula, un número y un carácter especial" required data-password data-type="password">
+                    <input class="login__field field-text field input login__password" type="password" inputmode="text" autocomplete="current-password" name="password" id="password" form="login" placeholder="Escriba su contraseña" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,10}$" title="Mínimo ocho y máximo 10 caracteres, al menos una letra mayúscula, una letra minúscula, un número y un carácter especial" required data-password data-type="password">
                     <label for="password" class="fake-placeholder input-label">Escriba su contraseña</label>
                     <span class="input-message-error">Este campo no es válido</span>
                 </div>
