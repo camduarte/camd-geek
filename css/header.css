@@ -54,6 +54,15 @@
     text-decoration: none;
 }
 
+.header__buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-admin {
+    margin-right: 1rem;
+}
+
 .header__btn {
     width: 11.375rem;
 }
