@@ -2,7 +2,8 @@
  * It is responsible for receiving the data and generating the HTML structure.
  */
 
-import { clientServices } from "../client-service-v5.js"
+import { clientServices } from "../client-service-v5.js";
+import { isLogged } from "./user-controller.js";
 (() => {
     /**
      * Creates HTML elements for the product.
@@ -40,6 +41,20 @@ import { clientServices } from "../client-service-v5.js"
                 window.location.href = "../../html/error.html";
             });
         });
+
+        // if the admin user logged, I show the edit and remove buttons.
+        const editRemoveBtn = div.querySelectorAll(".product__remove-edit");
+        if(!isLogged()) {
+            editRemoveBtn.forEach((buttons) => {
+                buttons.classList.remove("show");
+                buttons.classList.add("hide");
+            });
+        } else {
+            editRemoveBtn.forEach((buttons) => {
+                buttons.classList.remove("hide");
+                buttons.classList.add("show");
+            });
+        }
 
         return div;
     }
