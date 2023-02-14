@@ -3,6 +3,7 @@
     background-image: url("../img/drwho-banner.jpg");
     background-position: center;
     background-size: contain;
+    box-sizing: border-box;
     color: var(--white);
     display: flex;
     flex-direction: column;
