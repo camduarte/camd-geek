@@ -1,0 +1,10 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .banner {
+        padding: 2rem;
+    }
+
+    .banner__btn {
+        width: 7.375rem;
+    }
+}
