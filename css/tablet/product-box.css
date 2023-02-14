@@ -1,0 +1,15 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .products__container {
+        display: grid;
+        grid-area: products;
+        grid-template-columns: repeat(4, auto);
+        justify-content: space-between;
+        row-gap: 2rem;
+    }
+
+    .products__product {
+        grid-template-columns: 10.25rem;
+    }
+
+}
