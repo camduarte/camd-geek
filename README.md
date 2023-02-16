@@ -3,6 +3,10 @@
 
 ## Demo
 <a href="https://camduarte.github.io/camd-geek/" target="_blank">Visitar Camd Geek</a>
+<p>
+    email: admin@camdgeek.com<br>
+    password: Lhptad@05
+</p>
 
 ## Tecnologías
 <ul>
