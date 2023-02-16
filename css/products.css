@@ -17,6 +17,7 @@
     font-style: normal;
     font-weight: 700;
     grid-area: title;
+    align-self: center;
     line-height: 2.375rem;
 }
 
