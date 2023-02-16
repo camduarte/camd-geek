@@ -1,0 +1,12 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .fake-placeholder {
+        top: 0.7815rem;
+        left: 0.5rem;
+    }
+
+    .field:not(:placeholder-shown) + .fake-placeholder,
+    .field:focus + .fake-placeholder {
+        font-size: 0.75rem;
+    }
+}

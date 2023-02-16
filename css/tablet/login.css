@@ -1,0 +1,16 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .login__fields {
+        width: 17.188rem;
+    }
+
+    .login__email, .login__password, .login__btn {
+        height: 2.563rem;
+    }
+
+
+    .login__btn {
+        width: 6.813rem;
+        justify-self: center;
+    }
+}

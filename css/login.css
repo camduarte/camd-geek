@@ -15,8 +15,7 @@
 .login__fields {
     display: grid;
     grid-template-columns: auto;
-   /* grid-template-rows: repeat(3, 3.938rem);*/
-    grid-template-rows: auto;
+    grid-template-rows: auto auto auto;
     row-gap: 1.5rem;
     width: 26.438rem;
 }
