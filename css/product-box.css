@@ -29,7 +29,7 @@
 .product__description {
     color: var(--black);
     font-family: var(--font-family-raleway);
-    font-size: 0.875;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 500;
     line-height: 1rem;

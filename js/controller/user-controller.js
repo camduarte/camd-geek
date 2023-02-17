@@ -37,7 +37,3 @@ export const isLogged = () => {
     }
     return false;
 }
-
-// export const userService = {
-    // isLogged
-// }
