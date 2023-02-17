@@ -15,14 +15,10 @@
 
     .selected-product__name {
         font-size: 1.375rem;
-        margin-bottom: 0.5rem;
-        line-height: 1.625rem;
     }
 
     .selected-product__description {
         font-size: 0.875rem;
-        margin-bottom: 0.5rem;
-        line-height: 1rem;
     }
     
 }

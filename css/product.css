@@ -39,8 +39,6 @@
     font-size: 3.25rem;
     font-style: normal;
     font-weight: 500;
-    margin-bottom: 0.5rem;
-    line-height: 3.813rem;
 }
 
 .selected-product__price {
@@ -49,8 +47,7 @@
     font-size: 1rem;
     font-style: normal;
     font-weight: 700;
-    margin-bottom: 1rem;
-    line-height: 1.188rem;
+    padding: 0.5rem 0;
 }
 
 .selected-product__description {
@@ -59,7 +56,6 @@
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.188rem;
 }
 
 .products {
