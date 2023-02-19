@@ -4,7 +4,7 @@
       "id": 1,
       "email": "admin@camdgeek.com",
       "password": "Lhptad@05",
-      "role" : "admin"
+      "role": "admin"
     }
   ],
   "starwars": [
@@ -257,6 +257,14 @@
       "description": "Detalles del producto:<br>• Gorras Trucker de calidad Superior (Premium)<br>• 5 paneles. Panel frontal de Foam y 4 paneles de malla por detrás.<br>• Visera Semicurva.<br>• Medida regulable con broche plástico posterior de doble línea de puntos (Cierre Snapback)<br>• Impresión Digital por Sublimación. Imperceptible al tacto. Gama ilimitada de colores (Full Color). No se desgasta ni desluce con los lavados.<br>• Sin marcas del planchado.<br>• Producto importado.",
       "price": "2.400",
       "link": "#"
+    },
+    {
+      "id": "7195c35a-8064-4892-8b90-f0bc67a2904d",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_747503-MLA48218509917_112021-O.webp",
+      "category": "various",
+      "name": "Muñeco Figura De Acc",
+      "price": "8.990",
+      "description": "Figura De Acción Captain Kirk Star Trek<br>Kirk es una figura imprescindible para tu colección de Star Trek.<br>La figura mide 20'' de alto y tiene 14"
     }
   ]
 }
