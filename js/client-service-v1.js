@@ -6,7 +6,7 @@
     const PATCH = "PATCH";
     const DELETE = "DELETE";
 
-    const URL = "http://localhost:3000/";
+    const URL = "https://json-mock-80h7.onrender.com/";
 
     const TB_USER = "user";
     const TB_STARWARS = "starwars";
@@ -42,7 +42,7 @@
 
     const http = new XMLHttpRequest();
 
-    http.open("GET", "http://localhost:3000/starwars");
+    http.open("GET", "https://json-mock-80h7.onrender.com/starwars");
     http.send(); // envio la peticion
 
     // espero la respuesta
@@ -58,7 +58,7 @@
     }
 
     const http2 = new XMLHttpRequest();
-    http2.open("GET", "http://localhost:3000/console");
+    http2.open("GET", "https://json-mock-80h7.onrender.com/console");
     http2.send(); // envio la peticion
 
     // espero la respuesta
@@ -74,7 +74,7 @@
     }
 
     const http3 = new XMLHttpRequest();
-    http3.open("GET", "http://localhost:3000/various");
+    http3.open("GET", "https://json-mock-80h7.onrender.com/various");
     http3.send(); // envio la peticion
 
     // espero la respuesta

@@ -9,7 +9,7 @@
     const PATCH = "PATCH";
     const DELETE = "DELETE";
 
-    const URL = "http://localhost:3000/";
+    const URL = "https://json-mock-80h7.onrender.com/";
 
     const TB_USER = "user";
     const TB_STARWARS = "starwars";
