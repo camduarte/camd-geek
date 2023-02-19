@@ -24,7 +24,7 @@ import { clientServices } from "../client-service-v5.js";
         </div>
         <p class="product__description">${name}</p>
         <p class="product__price">$ ${price}</p>
-        <a class="no-decor product__link" href="./html/product.html?id=${id}&category=${category}">Ver producto</a>
+        <a class="no-decor product__link" href="./product.html?id=${id}&category=${category}">Ver producto</a>
         `;
 
         div.innerHTML = content;
