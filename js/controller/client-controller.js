@@ -28,7 +28,7 @@ import { isLogged } from "./user-controller.js";
         </div>
         <p class="product__description">${name}</p>
         <p class="product__price">$ ${price}</p>
-        <a class="no-decor product__link" href="../../html/product.html?id=${id}&category=${category}">Ver producto</a>
+        <a class="no-decor product__link" href="./html/product.html?id=${id}&category=${category}">Ver producto</a>
         `;
 
         div.innerHTML = content;
