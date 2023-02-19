@@ -66,3 +66,7 @@
 .header__btn {
     width: 11.375rem;
 }
+
+.buttons-container__search-button {
+    display: none;
+}
