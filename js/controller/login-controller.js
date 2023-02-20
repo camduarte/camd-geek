@@ -15,14 +15,14 @@ import { loginService } from "../service/login-service.js";
             const user = response[0];
             if (checkCredentials(user, email, password)) {
                 localStorage.setItem("user", JSON.stringify(user)); // I save the login user.
-                window.location.href = "../../html/products.html";
+                window.location.href = "./products.html";
             } else {
-                window.location.href = "../../html/login-error.html";
+                window.location.href = "./login-error.html";
             }
         }))
         .catch(error => {
             console.log(error);
-            window.location.href = "../../html/error.html";
+            window.location.href = "./error.html";
         });
     });
 
