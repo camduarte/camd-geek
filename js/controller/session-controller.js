@@ -7,7 +7,7 @@
         logoutBtn.addEventListener("click", () => {
             console.log("logout");
             localStorage.removeItem("user");
-            window.location.href = "../../index.html"
+            window.location.href = "/index.html"
         });
     }
     logout();
