@@ -21,7 +21,7 @@ import { clientServices } from "../client-service-v5.js";
     })
     .catch((error) => {
         console.log(error);
-        window.location.href = "../../html/error.html"
+        window.location.href = "./error.html"
     });
 
     /**
@@ -47,11 +47,11 @@ import { clientServices } from "../client-service-v5.js";
             description
         ).then((response) => {
             console.log(response);
-            window.location.href = "../../html/successful.html"            
+            window.location.href = "./successful.html"            
         })
         .catch((error) => {
             console.log(error);
-            window.location.href = "../../html/error.html"
+            window.location.href = "./error.html"
         });
     })
 })();
