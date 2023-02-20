@@ -31,8 +31,10 @@ import { clientServices } from "../client-service-v5.js";
         const removeButton = div.querySelector("button");
         removeButton.addEventListener("click", () => {
             clientServices.deleteProduct(clientServices.URL, category, id)
-            .then(response => console.log(response))
-            .catch(error => {
+            .then(response => {
+                console.log(response);
+                window.location.href = "./successful.html";
+            }).catch(error => {
                 console.log(error);
                 window.location.href = "./error.html";
             });
