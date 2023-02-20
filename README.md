@@ -69,7 +69,10 @@
 </ol>
 
 ## Sobre el proyecto
-<p>Proyecto propuesto como desafío en el curso impartido por Alura Latam + ONE.</p>
+<p>Proyecto propuesto como desafío en el curso impartido por Alura Latam + ONE (Oracle Next Education).</p>
+<p>Insignia otorgada al haber cumplido con el desafío:</p>
+
+![image](https://user-images.githubusercontent.com/33993670/220092583-6b60335d-22fe-4306-b309-4b44cb8ff8a5.png)
 
 <p>¡Muchas gracias!<br>
 Christian Ariel Modesto Duarte</p>
