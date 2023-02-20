@@ -10,15 +10,12 @@ import { clientServices } from "../client-service-v5.js"
         const price = document.querySelector("[data-price]").value;
         const description = document.querySelector("[data-description]").value;
 
-
-        console.log("click");
-
         clientServices.createProduct(
             clientServices.POST, clientServices.URL, category, img, category, name, price, description)
-            .then(response => window.location.href = "../../html/successful.html")
+            .then(response => window.location.href = "./successful.html")
             .catch(error => {
                 console.log(error);
-                window.location.href = "../../html/error.html";
+                window.location.href = "./error.html";
             });
     });
 })();
