@@ -1,0 +1,36 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main-container {
+        padding: 1rem;
+        row-gap: 2rem;
+    }
+
+    .selected-product {
+        column-gap: 0;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        row-gap: 1rem;
+    }
+
+    .selected-product__img {
+        height: 10rem;
+        width: 100%;
+        
+    }
+
+    .selected-product__info {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .selected-product__name {
+        font-size: 1.375rem;
+    }
+
+    .selected-product__description {
+        font-size: 0.875rem;
+    }
+    
+}
