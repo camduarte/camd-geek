@@ -11,7 +11,8 @@
                              "form";
     }
 
-    .logo {
+    .info__logo {
+        font-size: 1.5rem;
         grid-area: logo;
     }
 
@@ -20,10 +21,12 @@
         grid-area: list;
         grid-template-columns: auto;
         grid-template-rows: repeat(6, auto);
-        row-gap: 1.5rem;
+        margin-bottom: 1rem;
+        row-gap: 1rem;
     }
 
     .info__item {
+        justify-self: center;
         margin-bottom: 0;
     }
 
