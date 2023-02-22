@@ -48,6 +48,19 @@
     text-decoration: none;
 }
 
+.link-transparent-no-border {
+    background-color: transparent;
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.btn-transparent-no-border {
+    background-color: transparent;
+    border: none;
+    color: var(--blue);
+    text-decoration: none;
+}
+
 .hide {
     display: none;
 }

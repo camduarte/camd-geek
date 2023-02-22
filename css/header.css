@@ -70,3 +70,7 @@
 .buttons-container__search-button {
     display: none;
 }
+
+.admin-menu-icon, .logout-icon, .search-icon {
+    font-size: 1rem;
+}
