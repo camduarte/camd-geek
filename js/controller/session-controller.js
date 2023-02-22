@@ -9,7 +9,7 @@
             localStorage.removeItem("user");
             
             const currentURL = window.location.href; 
-            if (currentURL.endsWith("index.html")) {
+            if (currentURL.endsWith("index.html") || currentURL.endsWith("camd-geek/")) {
                 window.location.href = "./index.html";
             } else {
                 window.location.href = "../index.html";
