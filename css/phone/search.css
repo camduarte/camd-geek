@@ -1,0 +1,33 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main-container {
+        background-color: var(--light-grey);
+        padding: 4rem 1rem;
+    }
+
+    .find__container {
+        background-color: var(--white);
+        border-radius: 20px;
+        display: grid;
+        grid-template-areas: "field  btn  ";
+        grid-template-columns: auto 2rem;
+        grid-template-rows: 2rem;
+        padding: 0.5rem;
+    }
+
+    .find__field {
+        background-color: transparent;
+        border: none;
+        font-size: 0.875rem;
+        grid-area: field;
+        outline: none;
+    }
+
+    .find__btn {
+        background-color: transparent;
+        border: none;
+        color: var(--dark-grey);
+        font-size: 1rem;
+        grid-area: btn;
+    }
+}
