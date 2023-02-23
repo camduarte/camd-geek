@@ -1,6 +1,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .header {
+        height: 4.5rem;
         padding: 1rem;
     }
 
