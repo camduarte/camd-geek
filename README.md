@@ -24,6 +24,7 @@
             <li>json-server</li>
             <li>json</li>
             <li>Rest</li>
+            <li>uuid</li>
             <li>localStorage</li>
             <li>Arrow functions</li>
             <li>Events</li>
