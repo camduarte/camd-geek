@@ -3,4 +3,15 @@
     .main-container {
         padding: 1rem;
     }
+
+    .products {
+        grid-template-areas: "title    title"
+                             "link     link" 
+                             "products products";
+        row-gap: 1rem;
+    }
+
+    .products__link {
+        justify-self: start;
+    }
 }
